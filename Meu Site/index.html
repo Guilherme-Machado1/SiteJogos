@@ -1,0 +1,235 @@
+ <!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <!-- Conexão com o CSS -->
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+    <!-- ICON ABA -->
+    <link  rel="icon" href="img/logo.png" width="50px" height="50px">
+
+
+    <title>Loja Games</title>
+  </head>
+  <body>
+    <header><!--INICIO HEADER-->
+      <nav class="navbar navbar-expand-md bg-primary">
+        <div class="container">
+          <a href="index.html"><span class="titulo">Loja Games</span><img src="img/logo.png" width="150" height="100"></a>
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal"><i class="fas fa-bars text-white "></i></button>
+          <div class="collapse navbar-collapse letras-top" id="nav-principal">
+            <ul class="navbar-nav ml-auto fonte-nav">
+              <li class="nav-item"><a href="consoles.html" target="_blanket" class="nav-link ml-2">Consoles</a></li>
+              <li class="nav-item"><a href="jogos.html" target="_blanket" class="nav-link ml-2">Jogos</a></li>
+              <li class="nav-item"><a href="#" class="nav-link ml-2">Lançamentos</a></li>
+              <li class="nav-item"><a href="#" class="nav-link ml-2">Produtos</a></li>
+              <li class="nav-item"><a href="TelaCadastro.html" class="btn btn-danger mt-2 ml-2">login/Cadastro<i class="fas fa-user-alt ml-2"></i></a></li>
+              <li class="nav-item"><a href="" class="btn btn-warning mt-2 ml-2"><i class="fas fa-shopping-cart"><span class="ml-2">Carrinho</span></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header><!--FIM HEADER-->
+    <section><!--INICIO SECTION-->
+      <div id="controles" class="carousel slide" data-ride="carousel"><!--INICIO CAROUSEL-->
+        <div class="carousel-inner"><!--INICIO INNER-->
+          <div class="carousel-item">
+            <img src="img/teste4.jpg" class="img-fluid">
+          </div>
+          <div class="carousel-item">
+            <img src="img/the-last2.jpg" class="img-fluid">
+          </div>
+          <div class="carousel-item active">
+            <img src="img/the-witcher1.jpg" class="img-fluid">
+          </div>
+          <div class="carousel-item">
+            <img src="img/xbox1.jpg" class="img-fluid">
+          </div>
+          <div class="carousel-item">
+            <img src="img/ps41.jpg" class="img-fluid">
+          </div>
+        </div><!--FIM INNER-->
+       <!-- Controles -->
+       <a href="#controles" class="carousel-control-prev" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
+
+       <a href="#controles" class="carousel-control-next" data-slide="next"><span class="carousel-control-next-icon"></span></a>
+      </div><!--FIM CAROUSEL-->
+    </section><!--END OF SECTION-->
+    <section id="mini-banner"><!--BEGIN OF SECTION MINI-BANNER-->
+      <div class="container mt-3">
+        <div class="row">
+          <div class="col-md-4 d-none d-md-block">
+            <a href="#"><img src="banner/nintendo.jpg" class="img-fluid mini-banner"></a>
+          </div>
+          <div class="col-md-4 d-none d-md-block">
+            <a href="#"><img src="banner/xbox-banner.jpg" class="img-fluid"></a>
+          </div>
+          <div class="col-md-4 d-none d-md-block">
+            <a href="#"><img src="banner/cadeira.jpg" class="img-fluid ml-5 "></a>
+          </div>
+        </div>
+      </div>
+    </section><!--END OF SECTION MINI-BANNER-->
+    <section><!--BEGIN OF SECTION JOGOS PS4-->
+      <div id="PS" class="container mt-5">
+        <div class="row">
+          <div class="col-md-3 margins" id="div1" onmouseover="sobreposicao('#00BFFF')" name="produto" onmouseout="semSobreposicao('#FFF')">
+            <a href="#"><img src="img-exibir/horizon.jpg" class="img-fluid img-pequenas"></a>
+            <p class="text-center top">Horizon Zero Down</p>
+            <div class="text-center">
+              <button class="mt-5 btn btn-warning mt-2 ml-2 mb-2"><i class="fas fa-cart-plus fa-lg ml-2"><span class="ml-2">R$170,00</span></i></button>
+            </div>
+          </div>
+          <div class="col-md-3 margins" id="div2" onmouseover="sobreposicao1('#00BFFF')" name="produto" onmouseout="semSobreposicao1('#FFF')">
+            <a href="#"><img src="img-exibir/reddead.jpg" class="img-fluid img-pequenas"></a>
+            <p class="text-center ">Red Dead Redemption</p>
+            <div class="text-center">
+            <button type="button" class="mt-5 btn btn-warning mt-2 ml-2"><i class="fas fa-cart-plus fa-lg"><span class="ml-2">R$250,00</span></i></button>
+            </div>
+          </div>
+          <div class="col-md-3 margins" id="div3" onmouseover="sobreposicao2('#00BFFF')" name="produto" onmouseout="semSobreposicao2('#FFF')">
+            <a href="#"><img src="img-exibir/thewitcher.jpg" class="img-fluid img-pequenas"></a>
+            <p class="text-center">The Witcher 3 Gold Edition</p>
+            <div class="text-center">
+            <button type="button" class="mt-5 btn btn-warning mt-2 ml-2"><i class="fas fa-cart-plus fa-lg"><span class="ml-2">R$450,00</span></i></button>
+            </div>
+          </div>
+          <div class="col-md-3 margins" id="div4" onmouseover="sobreposicao3('#00BFFF')" name="produto" onmouseout="semSobreposicao3('#FFF')">
+            <a href="#"><img src="img-exibir/godof.jpg" class="img-fluid img-pequenas"></a>
+            <p class="text-center ">God Of War</p>
+            <div class="text-center">
+            <button type="button" class="mt-5 btn btn-warning mt-2 ml-2"><i class="fas fa-cart-plus fa-lg"><span class="ml-2">R$250,00</span></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!--END OF SECTION JOGOS PS4-->
+
+    <section><!--BEGIN OF SECTION JOGOS XBOX-->
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-3 margins" id="div5" onmouseover="sobreposicao4('#00BFFF')" name="produto" onmouseout="semSobreposicao4('#FFF')">
+            <a href="#"><img src="img-exibir/battlefiend.jpg" class="img-fluid img-pequenas"></a>
+            <p class="centro">Battlefeld 4</p>
+            <div class="text-center">
+            <button type="button" class="mt-5 btn btn-warning mt-2 ml-2"><i class="fas fa-cart-plus fa-lg"><span class="ml-2">R$80,00</span></i></button>
+            </div>
+          </div>
+          <div class="col-md-3 margins" id="div6" onmouseover="sobreposicao5('#00BFFF')" name="produto" onmouseout="semSobreposicao5('#FFF')">
+            <a href="#"><img src="img-exibir/fifa19.jpg" class="img-fluid img-pequenas"></a>
+            <p class="text-center">Fifa 19</p>
+             <div class="text-center">
+            <button type="button" class="mt-5 btn btn-warning mt-2 ml-2 mb-2"><i class="fas fa-cart-plus fa-lg "><span class="ml-2">R$110,00</span></i></button>
+            </div>
+          </div>
+          <div class="col-md-3 margins" id="div7" onmouseover="sobreposicao6('#00BFFF')" name="produto" onmouseout="semSobreposicao6('#FFF')">
+            <a href="#"><img src="img-exibir/dragon.jpg" class="img-fluid img-pequenas"></a>
+            <p class="text-center">Dragon Ball Xenoverse 2</p>
+            <div class="text-center">
+            <button type="button" class="mt-5 btn btn-warning mt-2 ml-2"><i class="fas fa-cart-plus fa-lg "><span class="ml-2">R$160,00</span></i></button>
+            </div>
+          </div>
+          <div class="col-md-3 margins" id="div8" onmouseover="sobreposicao7('#00BFFF')" name="produto" onmouseout="semSobreposicao7('#FFF')">
+            <a href="#"><img src="img-exibir/farcry.jpg" class="img-fluid img-pequenas"></a>
+            <p class="text-center">Far Cry 5</p>
+            <div class="text-center">
+            <button type="button" class="mt-5 btn btn-warning mt-2 ml-2"><i class="fas fa-cart-plus fa-lg "><span class="ml-2">R$170,00</span></i></button>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section><!--END OF SECTION JOGOS XBOX-->
+
+    <section><!--BEGIN OF SECTION ACESSORIOS-->
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-3 margins" id="div9" onmouseover="sobreposicao8('#00BFFF')" name="produto" onmouseout="semSobreposicao8('#FFF')">
+            <a href="#"><img src="img-acessorio/adaptador.jpg" class="img-fluid img-pequenas"></a>
+            <p class="text-center">Adptador Wireless Para Controle De Xbox One</p>
+            <div class="text-center">
+            <button type="button" class="mt-4 btn btn-warning mt-2 ml-2"><i class="fas fa-cart-plus fa-lg "><span class="ml-2">R$170,00</span></i></button>
+            </div>
+          </div>
+          <div class="col-md-3 margins" id="div10" onmouseover="sobreposicao9('#00BFFF')" name="produto" onmouseout="semSobreposicao9('#FFF')">
+            <a href="#"><img src="img-acessorio/controle-ps4.jpg" class="img-fluid img-pequenas"></a>
+            <p class="text-center">Controle Sony Sem Fio Dualshock 4 PS4</p>
+            <div class="text-center">
+            <button type="button" class="mt-4 btn btn-warning mt-2 ml-2 mb-4"><i class="fas fa-cart-plus fa-lg "><span class="ml-2">R$250,00</span></i></button>
+            </div>
+          </div>
+          <div class="col-md-3 margins" id="div11" onmouseover="sobreposicao10('#00BFFF')" name="produto" onmouseout="semSobreposicao10('#FFF')">
+            <a href="#"><img src="img-acessorio/controle-xbox.jpg" class="img-fluid img-pequenas"></a>
+            <p class="text-center">Controle Xbox One Sem Fio Branco</p>
+            <div class="text-center">
+            <button type="button" class="mt-5 btn btn-warning mt-2 ml-2"><i class="fas fa-cart-plus fa-lg "><span class="ml-2">R$280,00</span></i></button>
+            </div>
+          </div>
+          <div class="col-md-3 margins" id="div12" onmouseover="sobreposicao11('#00BFFF')" name="produto" onmouseout="semSobreposicao11('#FFF')">
+            <a href="#"><img src="img-acessorio/headset-ps4.jpg" class="img-fluid img-pequenas"></a>
+            <p class="text-center">Headset Sony Wireless</p>
+            <div class="text-center">
+            <button type="button" class="mt-5 btn btn-warning mt-2 ml-2"><i class="fas fa-cart-plus fa-lg"><span class="ml-2">R$449,00</span></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!--END OF SECTION ACESSORIOS-->
+    <footer>>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-lg-3 d-none d-lg-block">
+              <a href="index.html"><img src="img/logo.png" width="150" height="100"></a>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-3">
+              <h4>Institucional</h4>
+              <ul>
+                <li><a href="#">Sobre a Loja Games</a></li>
+                <li><a href="#">Políticas do Site</a></li>
+                <li><a href="#">Política Marketplace</a></li>
+                <li><a href="#">Política de Privacidade</a></li>
+                <li><a href="ajuda.html" target="_blanket">Reclame Aqui</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-3">
+              <h4>Minha Conta</h4>
+              <ul>
+                <li><a href="#">Direito de Arrependimento</a></li>
+                <li><a href="#">Meus Pedidos</a></li>
+                <li><a href="#">Cadastrar / Remover Newsletter</a></li>
+                <li><a href="#">Compra Segura - Orientações </a></li>
+              </ul>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-3 d-none d-sm-block">
+              <ul class="text-center">
+                <li class="ml-1"><a href="#"><i class="fab fa-twitter fa-3x mt-5"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram fa-3x mt-5"></i></a></li>
+                <li><a href="#"><i class="fab fa-facebook-square fa-3x mt-5"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="text-center text-info">
+              Todos os Direitos Reservados a Loja Games &copy;
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/sobrepor.js"></script>
+
+
+ <!-- JavaScript (Opcional) -->
+      <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>    
